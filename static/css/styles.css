@@ -166,60 +166,12 @@ footer span:hover {
 }
 
 .vr {
-    display: block;
+
+    display: inline-block;
+    vertical-align: middle;
+    height: 23px;
+    width: 1px;
+    background-color: #bbbbbb;
+    margin: 0 0.3rem;
 }
 
-@media screen and (min-width: 40em) {
-    .vr {
-        display: inline-block;
-        vertical-align: top;
-        height: 30px;
-        width: 1px;
-        background-color: #bbbbbb;
-        margin: 0 0.3rem;
-    }
-}
-
-@media screen and (min-width: 50em) {
-    .vr {
-        height: 30px;
-        margin: -0.5rem 1.2rem 0 1.2rem;
-    }
-}
-
-/* Resposive related stuff */
-@media screen and (max-width: 800px) {
-    header {
-        width: auto;
-        text-align: center;
-    }
-
-    .content {
-        width: 100%;
-    }
-
-    .first-part {
-        display: block;
-        height: auto;
-        flex-wrap: wrap;
-    }
-
-    .first-part .pic {
-        margin: 0 auto;
-        padding: 50px 20px;
-    }
-
-    .first-part .about-me {
-        margin: 0 auto;
-        padding: 50px 20px;
-        text-align: justify;
-    }
-
-    .about-me .text {
-        vertical-align: top;
-    }
-
-    footer {
-        position: initial;
-    }
-}
