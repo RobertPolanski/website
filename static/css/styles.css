@@ -5,8 +5,8 @@ html, body {
     overflow-x: hidden;
     background-color: #3a5f84;
     box-sizing: border-box;
-    color: #bbbbbb;
-    font-family: Arial, monospace
+    color: #ffffff;
+    font-family: monospace
 }
 
 header {
@@ -18,8 +18,8 @@ header {
 }
 
 header h1 {
-    color: #bbbbbb;
     font-size: 35px;
+	opacity: 80%;
 }
 
 .main {
@@ -34,7 +34,7 @@ header h1 {
 
 .main hr {
     width: 95%;
-    opacity: 50%;
+    opacity: 90%;
 }
 
 .info-about-me {
@@ -67,7 +67,7 @@ article {
     padding: 30px 50px 100px 50px;
     /* --- */
     line-height: 17px;
-    font-size: 13px;
+    font-size: 14px;
     display: table-cell;
     vertical-align: middle;
     text-align: left;
@@ -84,7 +84,7 @@ footer {
 }
 
 footer span {
-    opacity: 80%;
+    opacity: 90%;
 }
 
 .vr {
