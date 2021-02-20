@@ -7,7 +7,7 @@ html, body {
     background-color: #3a5f84;
     box-sizing: border-box;
     color: #bbbbbb;
-    font-family: Arial
+    font-family: Arial, monospace
 }
 
 /* Header */
@@ -16,7 +16,7 @@ header {
     background-image: url("../assets/code.png");
     padding: 50px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 header h1 {
@@ -48,13 +48,13 @@ header h1 {
     flex-wrap: nowrap;
 }
 
-.info-about-me .pic {
+.info-about-me .my-photo {
     width: 400px;
     height: 400px;
     padding: 50px 40px 50px 100px;
 }
 
-.info-about-me .pic img {
+.info-about-me .my-photo img {
     position: relative;
     height: 100%;
     width: auto;
@@ -75,7 +75,6 @@ article {
     vertical-align: middle;
     text-align: left;
     opacity: 80%;
-
 }
 
 /* Footer */
@@ -110,7 +109,6 @@ footer span:hover {
     padding-top: 50px;
     height: auto;
     width: 100%;
-    height: auto;
     text-align: center;
 }
 
